@@ -1,0 +1,80 @@
+
+ .academics-links{
+        background-color: rgb(228, 226, 224);
+        color: aliceblue;
+        
+    
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 13.9ic;
+        font-weight: bold;
+        text-transform: capitalize;
+        position: static;
+
+    }
+    .academics-links{
+        flex-grow: 1;
+    }
+    
+     
+    .academics-links div {
+        /* background-color: rgb(185, 146, 86); */
+        color: aliceblue;
+        padding: 15px 20px ;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        /* width: 300px; */
+        height: 20px;
+
+        border-left: 8px solid #5d5961;
+        background-color: rgb(9, 6, 141);
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+
+
+    .academics-links div:hover {
+        background-color: rgb(164, 211, 55);
+        cursor: pointer;
+        border-left: 8px solid #443b3b;
+    }
+    .imag-width {
+      width: 15rem;
+    }
+  .white{
+    color: rgb(6, 156, 255);
+    background-color: rgba(114, 63, 233, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 10p 10px 20px rgba(252, 184, 117, 0.712);
+    text-shadow:1px 01px 7px  #c9b5b5;
+
+  }
+  .link a{
+    
+    text-decoration: none;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .link a:hover{
+        background-color: rgb(164, 211, 55);
+    
+    
+    text-decoration: underline;
+    color: rgb(220, 230, 220);
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+
+
+  }
+  .uppercase{
+    text-transform: uppercase;
+  }

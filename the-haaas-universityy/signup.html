@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAAS University - Sign Up</title>
+    <link rel="stylesheet" href="home.css"> <!-- your CSS file -->
+    <link rel="shortcut icon" href="./images/HAAS UNI LOGO_20251129_100231_0000.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-blue">
+
+   
+    <div class="uppernav d-flex justify-content-between align-items-center px-4">
+        <div class="d-flex align-items-center gap-3">
+            <img src="./images/HAAS UNI LOGO_20251129_100231_0000.png" class="uni-logo" alt="">
+            <h2 class="m-0 text-light">HAAS University</h2>
+        </div>
+
+        <a href="./index.html" class="signupbtn" style="background:rgb(180,255,5); color:black;">Back to Home</a>
+    </div>
+
+   
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+
+            <div class="col-md-5 p-4 bg-blue-chng-2"
+                style="border-radius:10px; border:1px solid white;">
+
+                <h2 class="text-light text-center mb-4">Create Account</h2>
+
+                <form id="signupForm">
+
+                    <label class="text-light">First Name</label>
+                    <input type="text" class="form-control mb-3" id="fname" required>
+
+                    <label class="text-light">Last Name</label>
+                    <input type="text" class="form-control mb-3" id="lname" required>
+
+                    <label class="text-light">Email</label>
+                    <input type="email" class="form-control mb-3" id="email" required placeholder="you@haas.edu">
+
+                    <label class="text-light">Program</label>
+                    <select class="form-select mb-3" id="program" required>
+                        <option value="">Select Program</option>
+                        <option>Undergraduate</option>
+                        <option>MBA</option>
+                        <option>Executive</option>
+                        <option>Continuing Education</option>
+                    </select>
+
+                    <label class="text-light">Password</label>
+                    <input type="password" class="form-control mb-3" id="password" required>
+
+                    <label class="text-light">Confirm Password</label>
+                    <input type="password" class="form-control mb-4" id="confirm" required>
+
+                    <button class="btn btn-success w-100" type="submit">Create Account</button>
+
+                </form>
+
+              
+                <p id="successMsg" class="text-center text-warning mt-3" style="display:none;">
+                    ✔ Account Created! Check your email for verification.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+     <div class="container-fluid mt-3 image3 ">
+
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="text-warning fw-bold border-bottom p-5" id="foot">Important links</h1>
+            </div>
+        </div>
+        <div class="row border-bottom mt-5">
+            <div class="col-3">
+                <li>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./index.html">Home</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./about.html">About</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./academics.html">Academics</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./faculty.html">Faculty</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./admissions.html">Admissions</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./faculty.html">Faqs</a></ul>
+
+                </li>
+
+            </div>
+            <div class="col-3 ">
+                <li>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./testimonials.html">Testimonials</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./Alumni.html">Alumni</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./Campusmap.html">Campus Map</a></ul>
+                    <ul><a class="text-decoration-none text-light fs-5" href="./research.html">Research</a></ul>
+                </li>
+
+            </div>
+            <div class="col-3 ">
+                <h2 class="text-light mb-3">HAAS UAN</h2>
+                <img src="/icons/telephone.svg" class="icon-white" alt="" width="10%"><a
+                    class="text-light text-decoration-none " href="">+92-51-111-11-0000</a>
+                <h2 class="text-light fw-bold mt-5 mb-2">Address</h2>
+                <p class="text-light">National University of Sciences & Technology (HAAS) Campus,2220 Piedmont Ave.,
+                    Berkeley, CA 94720-1900</p>
+            </div>
+            <div class="col-3">
+                <h2 class="text-light fw-bold pb-1">Lost? Map’s Here.</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4454.115663315728!2d-122.25826639757143!3d37.871160239697176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7718c522d7c1%3A0xda8034ea3b6b3289!2sUniversity%20of%20California%2C%20Berkeley!5e0!3m2!1sen!2s!4v1764487978316!5m2!1sen!2s"
+                    width="270" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 mt-4 ">
+                <p class="text-light" id="leftmar">© 2025 HAAS University of Sciences and Technology. All Rights
+                    Reserved</p>
+            </div>
+            <div class="col-3 text-end mt-4 mx-auto ">
+                <a href="https://x.com/BerkeleyHaas"> <img src="./icons/twitter.png" class="icon-white m-1" width="10%" alt=""></a><a
+                    href="https://www.instagram.com/BerkeleyHaas/"><img src="./icons/instagram.svg"
+                        class="icon-white m-1" width="10%" alt=""></a><a href="https://web.facebook.com/BerkeleyHaas?_rdc=1&_rdr#"><img src="./icons/facebook.svg"
+                    class="icon-white m-1" width="10%" alt=""></a><a href="https://www.linkedin.com/school/berkeley-haas/"><img
+                        src="./icons/linkedin.svg" class="icon-white m-1" width="10%" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       
+        const form = document.getElementById("signupForm");
+        const successMsg = document.getElementById("successMsg");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            let pw = document.getElementById("password").value;
+            let cpw = document.getElementById("confirm").value;
+
+            if (pw !== cpw) {
+                alert("Passwords do not match!");
+                return;
+            }
+
+            successMsg.style.display = "block";
+            form.reset();
+        });
+    </script>
+
+</body>
+
+</html>
+
